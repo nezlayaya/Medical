@@ -1,0 +1,83 @@
+@media screen and (max-width: 1148px){
+    header .container{
+        padding: 18px 15px;
+    }
+}
+@media screen and (max-width: 980px){
+    nav ul{
+        display: none;
+    }
+    nav{
+        padding: 15px 0;
+    }
+    #menu-icon{
+        display: block;
+        margin: 0 auto;
+        padding: 15px 20px;
+        background-color: #fff;
+        border: 1px solid #fff;
+    }
+    .ad{
+        display: none;
+    }
+    .products .container ul li{
+        width: 49%;
+    }
+    .products ul{
+        padding: 35px 15px;
+    }
+    html body .rectangle{
+        display: none;
+    }
+    .wrapper{
+        padding: 0 15px;
+    }
+    .welcome p{
+        padding: 10px 15px;
+    }
+    .tips h2, .welcome h2{
+        text-align: center;
+    }
+    .wrapper .container .content{
+        margin: 0;
+    }
+    footer .container{
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 890px){
+    .bx-wrapper{
+        display: none;
+    }
+    .welcome h2+p+img{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .welcome img+img{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px){
+    footer .container{
+        display: block;
+        text-align: justify;
+        padding: 15px;
+    }
+    .products .container ul li{
+        width: 100%;
+    }
+    footer .social ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    footer a{
+        font-size: 18px;
+    }
+    header .container{
+        display: block;
+    }
+    header .container div{
+        text-align: center;
+    }
+}
